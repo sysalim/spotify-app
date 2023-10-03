@@ -1,0 +1,53 @@
+.big {
+  width: 33.33%;
+  height: 275px;
+}
+
+.small {
+  width: 16.6%;
+  height: 200px;
+}
+
+.title_big {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.title_small {
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 29px;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  position: relative;
+
+  &:nth-child(1) {
+    background-color: #8D67AB;
+  }
+
+  &:nth-child(2) {
+    background-color: #BA5D07;
+  }
+
+  &:nth-child(3) {
+    background-color: #608108;
+  }
+
+  .container {
+    display: flex;
+    padding: 20px;
+
+    img {
+      width: 60%;
+      height: 60%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

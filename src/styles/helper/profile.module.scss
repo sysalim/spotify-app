@@ -1,0 +1,55 @@
+.container {
+  width: 147px;
+
+  ul {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+
+    .upDown {
+      display: flex;
+      gap: 4px;
+
+      span {
+        margin-top: 3px;
+      }
+    }
+
+    .dropDown {
+      li:hover {
+        background-color: darkblue;
+      }
+    }
+
+    li:first-child:hover {
+      ul {
+        display: block;
+      }
+    }
+
+    li:first-child {
+      font-size: 20px;
+      .icon {
+        margin-top: 6px;
+      }
+      ul {
+        display: none;
+      }
+    }
+
+    li {
+      text-align: center;
+      list-style: none;
+      width: 80%;
+      padding: 4px;
+      border-radius: 10px;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-family: serif;
+        font-size: 15px;
+      }
+    }
+  }
+}

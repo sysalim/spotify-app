@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,700&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+  font-family: serif;
+}
+
+#__next {
+  width: 100%;
+}
+
+.wraper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.content_wraper {
+  width: 80%;
+  height: auto;
+}
+
+.inner_content {
+  height: 2000px;
+}
